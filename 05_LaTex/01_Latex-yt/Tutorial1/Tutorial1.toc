@@ -1,0 +1,39 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Tipos y tama\IeC {\~n}os de fuente}{3}% 
+\contentsline {subsection}{\numberline {1.1}Tipos de letra}{3}% 
+\contentsline {subsection}{\numberline {1.2}Tama\IeC {\~n}os de letra}{4}% 
+\contentsline {section}{\numberline {2}P\IeC {\'a}rrafos, sangr\IeC {\'\i }a y saltos de l\IeC {\'\i }nea}{4}% 
+\contentsline {subsection}{\numberline {2.1}Sangr\IeC {\'\i }a}{4}% 
+\contentsline {subsection}{\numberline {2.2}Salto de l\IeC {\'\i }nea y nueva p\IeC {\'a}gina}{5}% 
+\contentsline {subsection}{\numberline {2.3}Alineaci\IeC {\'o}n de p\IeC {\'a}rrafos}{5}% 
+\contentsline {subsection}{\numberline {2.4}Comillas y puntos suspensivos}{5}% 
+\contentsline {subsection}{\numberline {2.5}Espaciado horizonal}{5}% 
+\contentsline {subsection}{\numberline {2.6}L\IeC {\'\i }neas de relleno}{5}% 
+\contentsline {section}{\numberline {3}Ecuaciones en l\IeC {\'\i }nea e independientes}{6}% 
+\contentsline {subsection}{\numberline {3.1}Ecuaci\IeC {\'o}n en l\IeC {\'\i }nea}{6}% 
+\contentsline {subsection}{\numberline {3.2}Ecuaci\IeC {\'o}n independiente}{6}% 
+\contentsline {subsection}{\numberline {3.3}Numeraci\IeC {\'o}n de f\IeC {\'o}rmulas y referencia}{6}% 
+\contentsline {subsection}{\numberline {3.4}Alinear ecuaciones con el comando alinq}{6}% 
+\contentsline {subsection}{\numberline {3.5}Fracciones}{7}% 
+\contentsline {subsection}{\numberline {3.6}Potencias, sub\IeC {\'\i }ndices y super\IeC {\'\i }ndices}{7}% 
+\contentsline {subsection}{\numberline {3.7}Ra\IeC {\'\i }ces}{8}% 
+\contentsline {subsection}{\numberline {3.8}Coeficientes binomiales}{8}% 
+\contentsline {section}{\numberline {4}Gr\IeC {\'a}ficas}{8}% 
+\contentsline {subsection}{\numberline {4.1}Incluir gr\IeC {\'a}ficas externas}{8}% 
+\contentsline {subsection}{\numberline {4.2}Paquete graphicx}{8}% 
+\contentsline {subsection}{\numberline {4.3}Objetos flotantes}{10}% 
+\contentsline {subsection}{\numberline {4.4}Paquete float}{12}% 
+\contentsline {subsection}{\numberline {4.5}Paquete subfigure}{13}% 
+\contentsline {section}{\numberline {5}Tablas b\IeC {\'a}sicas}{13}% 
+\contentsline {subsection}{\numberline {5.1}Multiples columnas}{14}% 
+\contentsline {subsection}{\numberline {5.2}Tablas con p\IeC {\'a}rrafos}{14}% 
+\contentsline {subsection}{\numberline {5.3}Escalar una tabla}{15}% 
+\contentsline {subsection}{\numberline {5.4}Expresiones matem\IeC {\'a}ticas en tablas}{16}% 
+\contentsline {subsection}{\numberline {5.5}Tablas largas, paquete longtable}{16}% 
+\contentsline {section}{\numberline {6}S\IeC {\'\i }mbolos de agrupaci\IeC {\'o}n}{17}% 
+\contentsline {subsection}{\numberline {6.1}Tama\IeC {\~n}o manual}{18}% 
+\contentsline {section}{\numberline {7}Matrices}{18}% 
+\contentsline {subsection}{\numberline {7.1}Matrices usando el entorno Array}{18}% 
+\contentsline {subsection}{\numberline {7.2}Matrices con entornos predefinidos}{20}% 
+\contentsline {subsection}{\numberline {7.3}M\IeC {\'a}ximo n\IeC {\'u}mero de columnas}{20}% 
+\contentsline {section}{\numberline {8}Negritas}{21}% 

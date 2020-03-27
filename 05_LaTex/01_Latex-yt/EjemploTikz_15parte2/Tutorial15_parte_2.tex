@@ -1,0 +1,99 @@
+\documentclass[12pt]{article}
+\usepackage[lmargin=0.5cm,rmargin=1cm,
+top=0.5cm,bottom=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\parindent=0cm
+%%
+\usepackage{tikz}
+%%
+
+\begin{document}
+
+\section{Tikz}
+\subsection{Figuras junto a texto}
+Iniciamos con una sencilla figura \tikz{\draw (0,0) rectangle (1,0.5);}.\\[0.5cm]
+
+Ejemplo en tikz colocando
+\tikz[scale=.25]{
+\draw[help lines] (0,-1) grid (4,2);
+\draw[fill=blue] (0,0) rectangle (2,1);
+\fill[ball color=red] (3,0) circle (1);
+}
+ figuras junto a texto.
+\tikz{
+\draw (0,0) -- (2,0);
+}
+\vspace{0.5cm}
+
+\tikz[scale=.25]{
+\draw[help lines] (0,-1) grid (4,2);
+\draw[fill=blue] (0,0) rectangle (2,1);
+\fill[ball color=red] (3,0) circle (1);
+}
+Al inicio del texto también se pueden colocar figuras
+\tikz[scale=.25]{
+\fill[ball color=red] (3,0) circle (1);
+}
+al centro, y también al final.
+\tikz[scale=.25]{
+\draw[fill=blue] (0,0) rectangle (2,1);
+}
+
+\subsection{Lineas}
+\subsubsection{Lineas continuas}
+
+\begin{tikzpicture}
+\draw[line width=5pt](0,3) -- (3,3);
+
+\draw[ultra thick](0,2.5) -- (3,2.5);
+\draw[line width=1.6pt](0,2) -- (3,2);
+
+\draw[thin](0,1.5) -- (3,1.5);
+\draw[line width=0.4pt](0,1) -- (3,1);
+
+\draw[ultra thin](0,0.5) -- (3,0.5);
+\draw[line width=0.1pt](0,0) -- (3,0);
+\end{tikzpicture}
+
+\subsubsection{Lineas punteadas}
+
+\begin{tikzpicture}
+\draw[dotted](0,1) -- (3,1);
+\draw[densely dotted](0,0.5) -- (3,0.5);
+
+\draw[dashed](0,0) -- (3,0);
+\end{tikzpicture}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

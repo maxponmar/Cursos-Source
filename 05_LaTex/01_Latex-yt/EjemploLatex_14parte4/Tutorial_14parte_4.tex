@@ -1,0 +1,132 @@
+\documentclass{beamer}
+\input{codigofuente/preambulo}
+\usetheme{Warsaw}
+%\usetheme{Berkeley}
+\setbeamercovered{transparent}
+
+\title[Beamer]{\bf\Huge Beamer básico}
+\subtitle{Tutorial 14 parte 4}
+\author[Héctor Misael Bacilio Navarro]{Héctor Misael Bacilio Navarro}
+\institute[]{Universidad de Guadalajara}
+\date[2017]{\scriptsize{2017}}
+%\logo{\includegraphics[width=1.0cm]{figuras/udg}}
+\titlegraphic{\includegraphics[width=1.0cm]{figuras/udg}}
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Contenido de la presentación}
+\tableofcontents
+\end{frame}
+
+\section{Listas}
+
+\begin{frame}
+\frametitle{Listas}
+\framesubtitle{itemize}
+
+\begin{itemize}
+\item El primer elemento
+\item El segundo elemento
+\item y continuamos
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Listas}
+\framesubtitle{enumerate}
+
+\begin{enumerate}
+\item El primer elemento
+\item El segundo elemento
+\item y continuamos
+\end{enumerate}
+
+\end{frame}
+
+\begin{frame}{Overlays (velos) básicos}
+\framesubtitle{Opción [<+->]}
+Nos permite visualizar paso a paso cada elemento de la lista
+\begin{enumerate}[<+->]
+\item El primer elemento
+\item El segundo elemento
+\item y continuamos
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Overlays (velos) básicos}
+\framesubtitle{Pause}
+Utilizando el comando pause
+\begin{enumerate}
+\item El primer elemento 
+\item El segundo elemento \pause
+\item y continuamos
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Overlays (velos) básicos}
+\framesubtitle{Opción <i->}
+Tenemos un mejor control de que elemento de nuestra lista se visualiza
+\begin{enumerate}
+\item<1-> El primer elemento
+\item<1-> El segundo elemento
+\item<2-> y continuamos
+\end{enumerate}
+\end{frame}
+
+\section{Alertas}
+\begin{frame}{Overlays (velos) básicos}
+\framesubtitle{Alertas <i-|alert@i>}
+Nos muestra un efecto de alerta
+\begin{enumerate}
+\item<1-|alert@1> El primer elemento
+\item<2-|alert@2> El segundo elemento
+\item<3-|alert@3> El tercero elemento
+\item<4-|alert@4> y continuamos
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Overlays (velos) básicos}
+\framesubtitle{Alertas <i-|alert@i> opción 2}
+Nos muestra un efecto de alerta
+\begin{enumerate}
+\item<1-|alert@1> El primer elemento
+\item<2-|alert@2> El segundo elemento
+\item<1-|alert@1> El tercero elemento
+\item<3-|alert@3> y continuamos
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Overlays (velos) básicos}
+\framesubtitle{Alertas [<+-|alert@+>] opción 2}
+Nos muestra un efecto de alerta de forma general
+\begin{enumerate}[<+-|alert@+>]
+\item El primer elemento
+\item El segundo elemento
+\item El tercero elemento
+\item y continuamos
+\end{enumerate}
+\end{frame}
+
+\section{Bloques}
+\begin{frame}{Bloques}
+\framesubtitle{block}
+Utilizamos bloques para destacar elementos
+
+\begin{block}{Titulo}
+Resaltamos la información
+\end{block}
+\pause
+\begin{alertblock}{Destacar}
+Resaltamos información
+\end{alertblock}
+
+\end{frame}
+
+
+\end{document}

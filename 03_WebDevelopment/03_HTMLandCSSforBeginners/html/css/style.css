@@ -1,0 +1,39 @@
+/*
+p{
+    color: red;
+    font-weight: bold;
+    font-size: 60px;
+}
+*/
+
+p, h1, h4{
+    color: red;
+}
+
+div p {
+    color: blue;
+}
+
+#first-para{
+    color: green;
+}
+
+.first-para{
+    background: black;
+    color:yellow;
+}
+
+div{
+    border: 4px solid red;
+    background: blue;
+    color: white;
+    width: 50%;
+    float: right;
+    border-radius: 25px;
+    margin: 200px;
+    padding: 20px;
+}
+div ul{
+    list-style-type: none;
+    list-style-type: square;
+}
